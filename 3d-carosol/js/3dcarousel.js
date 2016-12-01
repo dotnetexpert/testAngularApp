@@ -46,7 +46,7 @@ $.fn.carousel3d = function(args){
 	    rotate_int -= 1;
 	    animate_slider();
 
-	},2e3)
+	},2*1000)
 
 	$(".next").on("click", function(){
 		rotate_int -=1;
